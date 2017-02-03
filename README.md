@@ -17,10 +17,10 @@ Code for paper [Distinguishing Antonyms and Synonyms in a Pattern-based Neural N
 ```python train_ant_syn_net.py -corpus <corpus_prefix> -data <dataset_prefix> -emb <embeddings_file> -model <model_name> -iter <iteration>```
 
 in which:
-- <corpus_prefix>: the prefix of corpus
-- <dataset_prefix>: the prefix of dataset
-- <embeddings_file>: the embeddings file
-- <model_name>: 1 for training combined model or 0 for training pattern-based model
-- <iteration>: the number of iteration
+- ```<corpus_prefix>```: the prefix of corpus
+- ```<dataset_prefix>```: the prefix of dataset
+- ```<embeddings_file>```: the embeddings file
+- ```<model_name>```: 1 for training the combined model or 0 for training the pattern-based model
+- ```<iteration>```: the number of epoch
 
 
