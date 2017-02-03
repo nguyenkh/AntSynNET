@@ -10,10 +10,10 @@ def main():
     Usage:
         create_resource.py -input <triplets_file> -freq <frequent_paths_file> -prefix <resource_prefix>
 
-        <triplets_file> = the file that contains text triplets, formated as X\tY\tpath
-        <frequent_paths_file> = the file containing the frequent paths. It could be computed using 
-        the triplet files created from parse_wikipedia.py (e.g. parsed_corpus):
-        sort -u parsed_corpus | cut -f3 -d$'\t' > paths
+        <triplets_file> = the file that contains text triplets, formated as X \tY \t path
+        <frequent_paths_file> = the file containing the frequent paths. It could be created by using 
+        the triplet files as follows:
+        sort -u <triplets_file> | cut -f3 -d$'\t' > paths
         awk -F$'\t' '{a[$1]++; if (a[$1] == 5) print $1}' paths > frequent_paths
         <resource_prefix> = the file names' prefix for the resource files
     """
