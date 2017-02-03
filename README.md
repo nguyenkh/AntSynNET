@@ -23,4 +23,13 @@ in which:
 - ```<model_name>```: 1 for training the combined model or 0 for training the pattern-based model
 - ```<iteration>```: the number of epoch
 
-
+### Reference
+```
+@InProceedings{nguyen:2016:ant_syn_net
+  author    = {Nguyen, Kim Anh and Schulte im Walde, Sabine and Vu, Ngoc Thang},
+  title     = {Distinguishing Antonyms and Synonyms in a Pattern-based Neural Network},
+  booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+  year      = {2017},
+  address = {Valencia, Spain},
+}
+```
