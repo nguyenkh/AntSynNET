@@ -9,6 +9,10 @@ Code for paper [Distinguishing Antonyms and Synonyms in a Pattern-based Neural N
 3. Theano
 
 ### Preprocessing
+- Step 1: parse the corpus to create the patterns (```parse_corpus.py```)
+- Step 2: create the resources which is used to train the model (```create_resources.py```)
+
+### Training models
 
 
 
