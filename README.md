@@ -25,7 +25,7 @@ in which:
 
 ### Reference
 ```
-@InProceedings{nguyen:2016:ant_syn_net
+@InProceedings{nguyen:2017:ant_syn_net
   author    = {Nguyen, Kim Anh and Schulte im Walde, Sabine and Vu, Ngoc Thang},
   title     = {Distinguishing Antonyms and Synonyms in a Pattern-based Neural Network},
   booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
